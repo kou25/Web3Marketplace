@@ -11,7 +11,7 @@ const EthRates = () => {
           {eth.data ? (
             <>
               <Image height="35" width="35" src="/small-eth.webp" alt="eth" />
-              <span className="text-xl font-bold">= {eth.data}$</span>
+              <span className="text-xl font-bold">= ₹ {eth.data}</span>
             </>
           ) : (
             <div className="w-full flex justify-center">
@@ -27,7 +27,7 @@ const EthRates = () => {
             <>
               <span className="text-xl font-bold">{eth.perItem}</span>
               <Image height="35" width="35" src="/small-eth.webp" alt="eth" />
-              <span className="text-xl font-bold">= {COURSE_PRICE}$</span>
+              <span className="text-xl font-bold">= ₹ {COURSE_PRICE}</span>
             </>
           ) : (
             <div className="w-full flex justify-center">
